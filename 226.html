@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <style>
+    BODY {
+  align-items: center;
+  justify-content: center;
+  background: white;
+  font-family: Georgia;
+  }
+
+H1 {
+  font-size: 30px;
+  font-weight: normal;
+  cursor: pointer;
+  text-shadow: 0 0 15px #999;
+  color: transparent;
+  transition: all .5s;
+  }
+  H1:hover {
+    text-shadow: 0 0 0px #333;
+    cursor: pointer;
+    }
+  {
+   </style>
+ <script> 
+ function func1(){ 
+ var a;
+ a=Number(document.getElementById("a_znach").value);
+ document.getElementById("kont_a").innerHTML ="<h1>"+"Периметр"+"<br>"+ a*4+"</h1>";
+ }
+ function func2(){
+var r;
+ r=Number(document.getElementById("b_znach").value);
+ document.getElementById("b").innerHTML ="<h1>"+"Диаметр"+"<br>"+ r*2+"</h1>";
+ }
+
+
+
+  function func3(){
+var c;
+ c=Number(document.getElementById("g_znach").value);
+ var r;
+ r= document.getElementById("hi").innerHTML;
+ s = s%10
+ q = (c-s)/10
+ document.getElementById("hi").innerHTML ="<h1>"+"число десятков"+"<br>"+ q +"</h1>";
+var e;
+e = document.getElementById("ho").innerHTML;
+ document.getElementById("ho").innerHTML ="<h1>"+"число единиц"+"<br>"+ s +"</h1>"
+  var w;
+w = document.getElementById("he").innerHTML;
+ document.getElementById("he").innerHTML ="<h1>"+"сумма чисел"+"<br>"+ s * q+"</h1>";
+  }
+
+   function func5(){
+var t;
+ t=Number(document.getElementById("h_znach").value);
+ document.getElementById("thg").innerHTML ="<h1>"+"единицы"+"<br>"+ t%1+"</h1>";
+ m = t%100;
+ f = m%10
+ n = (m-f)  / 10
+ document.getElementById("tgh").innerHTML ="<h1>"+"десятки"+"<br>"+ n +"</h1>";
+   c = t%100;
+ v = (t-c)  / 100
+ document.getElementById("gth").innerHTML ="<h1>"+"сотни"+"<br>"+ v +"</h1>";
+   
+   }
+
+ </script>
+ </head>
+ <body>
+  <h1>Задача 1.25</h1>
+  Сторона квадрата a=<input type="text" value="0" id="a_znach">
+  <button onclick="func1()">1.25</button>
+  <div id="kont_a"></div>
+
+  <h1>Задача 1.26</h1>
+  Радиус r=<input type="text" value="0" id="b_znach">
+  <button onclick="func2()">1.26</button>
+  <div id="b"></div> </body> 
+ </html>
+
+<h1>Задача 2.10</h1>
+  число c=<input type="text" value="0" id="g_znach">
+  <button onclick="func3()">2.10</button>
+  <div id="hi"></div>     
+  <div id="ho"></div> 
+  <div id="he"></div> 
+
+<h1>Задача 2.11</h1>
+  число y=<input type="text" value="0" id="i_znach">
+  <button onclick="func4()">2.11</button>
+  <div id="yep"></div>
+
+<h1>Задача 2.12</h1>
+трехзначное число o=<input type="text" value="0" id="h_znach">
+  <button onclick="func5()">2.12</button>
+  <div id="thg"></div> </body>       
+  <div id="tgh"></div> </body>     
+  <div id="gth"></div> </body>    
+</html>
