@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+
+<body>
+  Оновы теории графов
+  
+
+  Граф — абстрактный математический объект, представляющий собой множество вершин графа и набор рёбер, то есть соединений между парами вершин.
+<img src="https://raw.githubusercontent.com/kovalchukarina/kovalchukarina.github.io/master/%D1%8D%D0%BB%D0%B5%D0%B9%D1%80%D0%BE%D0%B2.png">
+Неориентированный граф —граф ребра кооторого не имеют направлений.
+<img src="https://raw.githubusercontent.com/kovalchukarina/kovalchukarina.github.io/master/%D0%B3%D1%80%D0%B0%D1%84.png">
+Ориентированный граф- граф рёбрам которого присвоено направление. v
+<img src="https://raw.githubusercontent.com/kovalchukarina/kovalchukarina.github.io/master/%D0%B3%D1%80%D0%B0%D1%841.png">
+Связный граф — граф содержащий более одной компоненты связности.
+<img src="https://raw.githubusercontent.com/kovalchukarina/kovalchukarina.github.io/master/связный%20граф.png">
+Несвязный граф — это связный граф без циклов.  Несвязный граф может быть разбит на конечное число связных подграфов, называемых компонентами, или частями.  
+<img src="https://raw.githubusercontent.com/kovalchukarina/kovalchukarina.github.io/master/%D0%BD%D0%B5%D1%81%D0%B2%D1%8F%D0%B7%D0%BD%D1%8B%D0%B9%20%D0%B3%D1%80%D0%B0%D1%84.png">
+Степень вершины графа — количество рёбервыхожящих из одной вершины.
+<img src="https://raw.githubusercontent.com/kovalchukarina/kovalchukarina.github.io/master/%D1%81%D1%82%D0%B5%D0%BF%D0%B5%D0%BD%D1%8C%20%D0%B2%D0%B5%D1%80%D1%88%D0%B8%D0%BD.png">
+Дерево — граф, в котором между каждой парой вершин есть пути.
+Древовидная структура — тип организации, в котором каждый объект связан с хотя бы одним другим.
+<img src="https://raw.githubusercontent.com/kovalchukarina/kovalchukarina.github.io/master/%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%BE.png">
+Изоморфные графы - если у них одинаковое число вершин и их можно занумеровать, первом графе две вершины соединены ребром тогда, когда вершины с такими же номерами во втором графе соединены.
+<img src="https://raw.githubusercontent.com/kovalchukarina/kovalchukarina.github.io/master/%D0%B8%D0%B7%D0%BE%D0%BC%D0%BE%D1%80%D1%84%D0%BD%D1%8B%D0%B5%20%D0%B3%D1%80%D0%B0%D1%84%D1%8B.png">
+Эйлеров цикл — замкнутый путь, проходящий через каждое ребро графа ровно по одному разу.
+Эйлерова цепь  — незамкнутый эйлеров цикл
+<img src="https://raw.githubusercontent.com/kovalchukarina/kovalchukarina.github.io/master/%D1%8D%D0%BB%D0%B5%D0%B9%D1%80%D0%BE%D0%B2.png">
+<img src="https://raw.githubusercontent.com/kovalchukarina/kovalchukarina.github.io/master/%D1%8D%D0%BB%D0%B5%D0%B9%D1%80%D0%BE%D0%B2%20%D1%86%D0%B8%D0%BA%D0%BB.png">
+Гамильтонов цикл  — замкнутый цикл, котоорый проходит через каждую вершину графа ровно по одному разу.
+Гамильтонова цепь незамкнутый гамильтонов цикл.
+<img src="https://raw.githubusercontent.com/kovalchukarina/kovalchukarina.github.io/master/%D0%B3%D0%B0%D0%BC%D0%B5%D0%BB%D1%8C%D1%82%D0%BE%D0%BD%D0%BE%D0%B2.png">
+<img src="https://raw.githubusercontent.com/kovalchukarina/kovalchukarina.github.io/master/%D0%B3%D0%B0%D0%BC%D0%B8%D0%BB%D1%8C%D1%82%D0%BE%D0%BD%D0%BE%D0%B2%D0%B0%20%D1%86%D0%B5%D0%BF%D1%8C.png">
+Кратчайший путь алгоритмом Дейкстры - это алгоритм находящий кратчайшее расстояние от одной из вершин графа до всех остальных.
+<img src="https://raw.githubusercontent.com/kovalchukarina/kovalchukarina.github.io/master/%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BD%D0%B8%D0%B9%20%D0%B3%D1%80%D0%B0%D1%84.png">
+
+
+
+
+</body>
+
+
+</html>
+
+<img src="">
